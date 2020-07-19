@@ -8,7 +8,7 @@ margin-left: 20px;
 }
 
 h1{
-    text-align: center;
+    text-align: left;
 }
 
 h4{
@@ -29,10 +29,13 @@ h2{
 }
 
 #Strip{
+    
     text-align: left;
     display: inline-block;
 }
 
 #Price{
+    
     text-align: right;
 }
+
