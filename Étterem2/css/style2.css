@@ -27,3 +27,12 @@ h2{
     background-color:burlywood;
     color:black;
 }
+
+#Strip{
+    text-align: left;
+    display: inline-block;
+}
+
+#Price{
+    text-align: right;
+}
