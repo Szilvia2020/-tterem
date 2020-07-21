@@ -17,9 +17,13 @@ function showSumPrice(price=1000, amountNumber=1){
         let amount = amountNumber * price;
         showAmount.innerHTML = amount;
     }
+    console.log(amount);
 
     let sendButton = document.querySelector("form.btn.btn-primary");
-    sendButton.onclick = function(){
-        alert("Hello Js");
+    alert(1);
+    sendButton.onclick += function(){
+    //Megrendelés megtörténik
+    alert("helloks");
     }
+
 }
