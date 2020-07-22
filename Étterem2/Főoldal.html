@@ -18,6 +18,8 @@
         </li>
     </ul>
 
+    <form id="btnAdded" action="">
+
     <h1 class="center">Aranyhal Étterem</h1>
 
     <h3>Szeretettel várjuk kedves Vendégeinket megújult étlapunkkal!</h3>
@@ -62,9 +64,16 @@
 </table>
 
 <div class="btn">
-    <button onclick="ordersForm()" type="button" class="btn btn-primary">Megrendelés felvétele</button>
-
+    <button  id="openOrder" click="function()" type="button" class="btn btn-primary">Megrendelés felvétele</button>
 </div>
+
+<script>
+    document.getElementById("openOrder").addEventListener("click", function(){
+        alert("Helloka");
+    });
+</script>
+
+    </form>
 
 </body>
 
