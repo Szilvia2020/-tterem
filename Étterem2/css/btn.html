@@ -10,8 +10,6 @@
 
 <body>
 
-<form id="ordersForm" action="">
-
     <ul>
         <li>
             <a href="/Főoldal.html">Főoldal</a>
@@ -28,7 +26,7 @@
     <div class="col-3"></div>
     <div class="col-6">
         <h1>Megrendelő lap</h1>
-        <form action="">
+        <form>
             <div class="alert alert-info alert-dismissible fade show" role="alert">
                 <strong>Kedves Vásárlónk!</strong>
             </div>
@@ -36,19 +34,23 @@
                 A megrendeléshez kérem töltse ki az űrlapot.
             
             </div>
+            <form id="orderForm" action="">
 
-                <h4>A vásárló: </h4>
+                <fieldset>
+                    <legend>A vásárló adatai:</legend>
 
                 <div class="form-group">
-                    <label for="">Neve: </label>
+                    <label for="">Név: </label>
                     <input id="topInput" type="text" name="top-input" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="">Címe: </label>
+                    <label for="">Cím: </label>
                     <input type="text" name="top-input" id="topInput" class="form-control">
                 </div>
+                </fieldset>
 
-                <h4>A megrendelt termék: </h4>
+                <fieldset>
+                    <legend>A megrendelt termék(ek): </legend>
 
                 <div class="form-group">
                     <label for="">Étel kiválasztása: </label>
@@ -69,6 +71,7 @@
                     <label for="">Mennyiség</label>
                     <input type="text" name="top-input" id="topInput" class="form-control">
                 </div>
+                </fieldset>
 
                 <div class="form-group">
                     Fizetendő: <span class="show-amount">0</span>Ft
@@ -77,9 +80,10 @@
                 <div>
                 <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
                 </div>
+            
+            </form>
     </div>
     <div class="col-3"></div>
-</form>
 </body>
 
 <script src="/css/js/main.js"></script>
