@@ -17,13 +17,12 @@ function showSumPrice(price=1000, amountNumber=1){
         let amount = amountNumber * price;
         showAmount.innerHTML = amount;
     }
-    console.log(amount);
 
-    let sendButton = document.querySelector("form.btn.btn-primary");
-    alert(1);
-    sendButton.onclick += function(){
-    //Megrendelés megtörténik
-    alert("helloks");
+    let openOrder2 = document.querySelector("form.btn.btn-primary");
+    openOrder2.click = function(){
+        //megnyitja a btn.html-t!
+
+    
     }
-
 }
+
