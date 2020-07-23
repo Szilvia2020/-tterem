@@ -5,49 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megrendelő lap</title>
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="css/style3.css">
     <link rel="stylesheet" href="bootstrap/bootstrap-4.5.0-dist/css/bootstrap-grid.min.css">
 </head>
 
 <body>
 
-    <ul>
-        <li>
-            <a href="/Főoldal.html">Főoldal</a>
-        </li>
-        <li>
-            <a href="/Étlap.html">Étlap</a>
-        </li>
-
-        <li>
-            <a href="/Itallap.html">Itallap</a>
-        </li>
-    </ul>
-
     <div class="col-3"></div>
     <div class="col-6">
-        <h1 id="t01">Megrendelő lap</h1>
+
+            <h1>Megrendelő lap</h1>
+        
         <form>
+        
             <div class="alert alert-info alert-dismissible fade show" role="alert">
                 <strong>Kedves Vásárlónk!</strong>
             </div>
+                
             <div>
                 A megrendeléshez kérem töltse ki az űrlapot.
             
             </div>
+            
             <form>
 
                 <fieldset>
-                    <legend id="t01">A vásárló adatai:</legend>
+                    <legend>A vásárló adatai:</legend>
 
                 <div class="form-group">
                     <label for="name">Név: </label>
                     <input id="name" type="text" name="top-input" class="form-control">
                 </div>
+            
                 <div class="form-group">
                     <label for="adress">Cím: </label>
                     <input id="adress" type="text" name="top-input" class="form-control">
                 </div>
+
                 <div class="form-group">
                     <label for="email">Email: </label>
                     <input id="email" type="text" name="top-input" class="form-control">
@@ -73,7 +67,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="pieceDrink">Mennyiség</label>
+                    <label for="pieceDrink">Mennyiség: </label>
                     <input id="pieceDrink" type="text" name="top-input" class="form-control">
                 </div>
                 <div>
@@ -91,6 +85,7 @@
                 </div>
             
             </form>
+        </table>
     </div>
     <div class="col-3"></div>
 </body>
