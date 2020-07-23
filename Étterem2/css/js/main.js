@@ -18,11 +18,5 @@ function showSumPrice(price=1000, amountNumber=1){
         showAmount.innerHTML = amount;
     }
 
-    let openOrder2 = document.querySelector("form.btn.btn-primary");
-    openOrder2.click = function(){
-        //megnyitja a btn.html-t!
-
-    
-    }
 }
 
