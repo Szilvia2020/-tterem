@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ÉtÉsItallap</title>
-    <script src="http://ajax.googleapis.com/aja/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootsrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style4.css">
 </head>
 
 <body>
@@ -16,15 +17,15 @@
         <div class="table-responsive">
             <h1>Étel- és itallap</h1>
         </div>
-            <table class="table table-bordered table-striped" id="foodTable">
-
+            <table>
+                <thead>
                 <tr>
                     <th>Sorszám</th>
                     <th>Név</th>
                     <th>Ár</th>
                     <th>Tipus</th>
                 </tr>
-
+                </thead>
             </table>
     </div>
 </body>
@@ -36,7 +37,7 @@
             var food_data ='';
             $.each(database, function(key, value){
                 food_data += '<tr>';
-                food_data += '<td>'+value.sorszam+'</td>';
+                food_data += '<td>'+value.id+'</td>';
                 food_data += '<td>'+value.name+'</td>';
                 food_data += '<td>'+value.price+'</td>';
                 food_data += '<td>'+value.type+'</td>';

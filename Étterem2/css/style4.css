@@ -1,0 +1,15 @@
+body{
+    background-color: blanchedalmond;
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: initial;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
