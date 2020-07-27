@@ -17,15 +17,18 @@
         <div class="table-responsive">
             <h1>Étel- és itallap</h1>
         </div>
-            <table>
+            <table id ="foodTable">
                 <thead>
                 <tr>
                     <th>Sorszám</th>
                     <th>Név</th>
                     <th>Ár</th>
-                    <th>Tipus</th>
                 </tr>
                 </thead>
+
+                <tbody id="table-body">
+                    
+                </tbody>
             </table>
     </div>
 </body>
@@ -33,17 +36,19 @@
 
 <script>
     $(document).ready(function(){
-        $.getJSON("database.json", function(database){
+        //alert(1);
+
+        $.getJSON("http://localhost:3000/food", function(database){
             var food_data ='';
             $.each(database, function(key, value){
                 food_data += '<tr>';
                 food_data += '<td>'+value.id+'</td>';
                 food_data += '<td>'+value.name+'</td>';
                 food_data += '<td>'+value.price+'</td>';
-                food_data += '<td>'+value.type+'</td>';
                 food_data += '</tr>';
             });
             $('#foodTable').append(food_data);
         });
+   
     });
 </script>
