@@ -3,152 +3,127 @@
         {
             "id": 1,
             "name": "Borsóleves",
-            "price": "500 Ft",
-            "type": "Étel"
+            "price": "500 Ft"
         },
         {
             "id": 2,
             "name": "Palócgulyás leves",
-            "price": "600 Ft",
-            "type": "Étel"
+            "price": "600 Ft"
         },
         {
             "id": 3,
             "name": "Paradicsomleves",
-            "price": "550 Ft",
-            "type": "Étel"
+            "price": "550 Ft"
         },
         {
             "id": 4,
             "name": "Húsos spagetti",
-            "price": "700 Ft",
-            "type": "Étel"
+            "price": "700 Ft"
         },
         {
             "id": 5,
             "name": "Vegetariánus spagetti",
-            "price": "600 Ft",
-            "type": "Étel"
+            "price": "600 Ft"
         },
         {
             "id": 6,
             "name": "Pörkölt",
-            "price": "700 Ft",
-            "type": "Étel"
+            "price": "700 Ft"
         },
         {
             "id": 7,
             "name": "Székelykáposzta",
-            "price": "700 Ft",
-            "type": "Étel"
+            "price": "700 Ft"
         },
         {
             "id": 8,
             "name": "Csibe Burger",
-            "price": "800 Ft",
-            "type": "Étel"
+            "price": "800 Ft"
         },
         {
             "id": 9,
             "name": "Parmezámos csirkemell",
-            "price": "900 Ft",
-            "type": "Étel"
+            "price": "900 Ft"
         },
         {
             "id": 10,
             "name": "Rizs",
-            "price": "700 Ft",
-            "type": "Étel"
+            "price": "700 Ft"
         },
         {
             "id": 11,
             "name": "Sült burgonya",
-            "price": "700 Ft",
-            "type": "Étel"
+            "price": "700 Ft"
         },
         {
             "id": 12,
             "name": "Piritott burgonya",
-            "price": "700 Ft",
-            "type": "Étel"
+            "price": "700 Ft"
         },
         {
             "id": 13,
             "name": "Fagyalt(CSokoládé/Eper/Vanilia)",
-            "price": "500 Ft",
-            "type": "Étel"
+            "price": "500 Ft"
         },
         {
             "id": 14,
             "name": "Meggyes piskóta",
-            "price": "600 Ft",
-            "type": "Étel"
+            "price": "600 Ft"
         },
         {
             "id": 15,
             "name": "Brownie",
-            "price": "600 Ft",
-            "type": "Étel"
+            "price": "600 Ft"
         },
         {
             "id": 16,
             "name": "Búzasör",
-            "price": "500 Ft",
-            "type": "Ital"
+            "price": "500 Ft"
         },
         {
             "id": 17,
             "name": "Barnasör",
-            "price": "550 Ft",
-            "type": "Ital"
+            "price": "550 Ft"
         },
         {
             "id": 18,
             "name": "Világos sör",
-            "price": "550 Ft",
-            "type": "Ital"
+            "price": "550 Ft"
         },
         {
             "id": 19,
             "name": "Whisky",
-            "price": "600 Ft",
-            "type": "Ital"
+            "price": "600 Ft"
         },
         {
             "id": 20,
             "name": "Rum",
-            "price": "600 Ft",
-            "type": "Ital"
+            "price": "600 Ft"
         },
         {
             "id": 21,
             "name": "Brandy",
-            "price": "700 Ft",
-            "type": "Ital"
+            "price": "700 Ft"
         },
         {
             "id": 22,
             "name": "Sherry",
-            "price": "700 Ft",
-            "type": "Ital"
+            "price": "700 Ft"
         },
         {
             "id": 23,
             "name": "Vodka",
-            "price": "700 Ft",
-            "type": "Ital"
+            "price": "700 Ft"
         },
         {
             "id": 24,
             "name": "Ásványviz(Szénsavas/Szénsavmentes)",
-            "price": "350 Ft",
-            "type": "Ital"
+            "price": "350 Ft"
         },
         {
             "id": 25,
             "name": "Gyümölcslé(Alma/Körte/Őszibarack)",
-            "price": "400 Ft",
-            "type": "Ital"
+            "price": "400 Ft"
         }
     ]
 }
