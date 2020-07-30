@@ -36,7 +36,6 @@
 
 <script>
     $(document).ready(function(){
-
         $.getJSON("http://localhost:3000/food", function(database){
             var food_data ='';
             $.each(database, function(key, value){
@@ -48,6 +47,5 @@
             });
             $('#foodTable').append(food_data);
         });
-   
     });
 </script>
