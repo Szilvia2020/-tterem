@@ -14,29 +14,26 @@
     <div class="col-3"></div>
     <div class="col-6">
 
-            <h1>Megrendelő lap</h1>
-        
         <form>
-        
+            <h1>Megrendelő lap</h1>
+
             <div class="alert alert-info alert-dismissible fade show" role="alert">
                 <strong>Kedves Vásárlónk!</strong>
             </div>
-                
+
             <div>
                 A megrendeléshez kérem töltse ki az űrlapot.
-            
-            </div>
-            
-            <form>
 
-                <fieldset>
-                    <legend>A vásárló adatai:</legend>
+            </div>
+
+            <fieldset>
+                <legend>A vásárló adatai:</legend>
 
                 <div class="form-group">
                     <label for="name">Név: </label>
                     <input id="name" type="text" name="top-input" class="form-control">
                 </div>
-            
+
                 <div class="form-group">
                     <label for="adress">Cím: </label>
                     <input id="adress" type="text" name="top-input" class="form-control">
@@ -46,10 +43,10 @@
                     <label for="email">Email: </label>
                     <input id="email" type="text" name="top-input" class="form-control">
                 </div>
-                </fieldset>
+            </fieldset>
 
-                <fieldset>
-                    <legend id="t01">A megrendelt termék(ek): </legend>
+            <fieldset>
+                <legend>A megrendelt termék(ek): </legend>
 
                 <div class="form-group">
                     <label for="foodChange">Étel kiválasztása: </label>
@@ -74,18 +71,16 @@
                     <label for="comment">Megjegyzés: </label>
                     <textarea name="comment" id="comment" rows="5"></textarea>
                 </div>
-                </fieldset>
+            </fieldset>
 
-                <div class="form-group">
-                    Fizetendő: <span class="show-amount">0</span>Ft
-                </div>
+            <div class="form-group">
+                Fizetendő: <span class="show-amount">0</span>Ft
+            </div>
 
-                <div>
+            <div>
                 <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
-                </div>
-            
-            </form>
-        </table>
+            </div>
+        </form>
     </div>
     <div class="col-3"></div>
 </body>
