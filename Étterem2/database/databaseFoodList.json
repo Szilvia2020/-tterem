@@ -3,127 +3,152 @@
         {
             "id": 1,
             "name": "Borsóleves",
-            "price": "500 Ft"
+            "price": "500",
+            "currency": "Ft"
         },
         {
             "id": 2,
             "name": "Palócgulyás leves",
-            "price": "600 Ft"
+            "price": "600",
+            "currency": "Ft"
         },
         {
             "id": 3,
             "name": "Paradicsomleves",
-            "price": "550 Ft"
+            "price": "550",
+            "currency": "Ft"
         },
         {
             "id": 4,
             "name": "Húsos spagetti",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 5,
             "name": "Vegetariánus spagetti",
-            "price": "600 Ft"
+            "price": "600",
+            "currency": "Ft"
         },
         {
             "id": 6,
             "name": "Pörkölt",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 7,
             "name": "Székelykáposzta",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 8,
             "name": "Csibe Burger",
-            "price": "800 Ft"
+            "price": "800",
+            "currency": "Ft"
         },
         {
             "id": 9,
             "name": "Parmezámos csirkemell",
-            "price": "900 Ft"
+            "price": "900",
+            "currency": "Ft"
         },
         {
             "id": 10,
             "name": "Rizs",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 11,
             "name": "Sült burgonya",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 12,
             "name": "Piritott burgonya",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 13,
             "name": "Fagyalt(CSokoládé/Eper/Vanilia)",
-            "price": "500 Ft"
+            "price": "500",
+            "currency": "Ft"
         },
         {
             "id": 14,
             "name": "Meggyes piskóta",
-            "price": "600 Ft"
+            "price": "600",
+            "currency": "Ft"
         },
         {
             "id": 15,
             "name": "Brownie",
-            "price": "600 Ft"
+            "price": "600",
+            "currency": "Ft"
         },
         {
             "id": 16,
             "name": "Búzasör",
-            "price": "500 Ft"
+            "price": "500",
+            "currency": "Ft"
         },
         {
             "id": 17,
             "name": "Barnasör",
-            "price": "550 Ft"
+            "price": "550",
+            "currency": "Ft"
         },
         {
             "id": 18,
             "name": "Világos sör",
-            "price": "550 Ft"
+            "price": "550",
+            "currency": "Ft"
         },
         {
             "id": 19,
             "name": "Whisky",
-            "price": "600 Ft"
+            "price": "600",
+            "currency": "Ft"
         },
         {
             "id": 20,
             "name": "Rum",
-            "price": "600 Ft"
+            "price": "600",
+            "currency": "Ft"
         },
         {
             "id": 21,
             "name": "Brandy",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 22,
             "name": "Sherry",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 23,
             "name": "Vodka",
-            "price": "700 Ft"
+            "price": "700",
+            "currency": "Ft"
         },
         {
             "id": 24,
             "name": "Ásványviz(Szénsavas/Szénsavmentes)",
-            "price": "350 Ft"
+            "price": "350",
+            "currency": "Ft"
         },
         {
             "id": 25,
             "name": "Gyümölcslé(Alma/Körte/Őszibarack)",
-            "price": "400 Ft"
+            "price": "400",
+            "currency": "Ft"
         }
     ]
 }
